@@ -1,5 +1,5 @@
 class Student:
-  def _init_(self,name,roll_number,cgpa):
+  def __init__(self,name,roll_number,cgpa):
     self.name=name
     self.roll_number=roll_number
     self.cgpa=cgpa 
@@ -12,7 +12,7 @@ def sort_students(student_list):
 students= [
   Student("Hari", "A123",7.8),
   Student("Sri", "A124",8.9),
-  
+  Student("Esai","A125",9.1),
 ]
 sorted_students=sort_students(students)
 for student in sorted_students:
